@@ -31,24 +31,30 @@
     margin-bottom: 30px;
   }  
   .jumbotron {
-    background-color: #f4511e;
-    color: #fff;
+    background-image:url('home.jpg');
+    width:"1400";
+     height:"933";
+    background-size: 100% 100%;
+    background-color: gold;
+    color:white;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
+    font-size: 5000px;
+    font-weight: bolder;
   }
   .container-fluid {
-  
+    
     padding: 60px 50px;
   }
   .bg-grey {
-    background-color: #f6f6f6;
+    background-color: #f8f7f7de;
   }
   .logo-small {
-    color: #f4511e;
+    color: goldenrod;
     font-size: 50px;
   }
   .logo {
-    color: #f4511e;
+    color: rgb(194, 150, 40);
     font-size: 200px;
   }
   .thumbnail {
@@ -63,13 +69,13 @@
   }
   .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: #f4511e;
+    color: gold;
   }
   .carousel-indicators li {
-    border-color: #f4511e;
+    border-color:gold;
   }
   .carousel-indicators li.active {
-    background-color: #f4511e;
+    background-color:gold;
   }
   .item h4 {
     font-size: 19px;
@@ -121,7 +127,7 @@
   }
   .navbar {
     margin-bottom: 0;
-    background-color: #f4511e;
+    background-color:rgba(0, 0, 0, 0.884);
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -134,7 +140,7 @@
     color: #fff !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #f4511e !important;
+    color: gold !important;
     background-color: #fff !important;
   }
   .navbar-default .navbar-toggle {
@@ -144,7 +150,7 @@
   footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
-    color: #f4511e;
+    color:gold;
   }
   .slideanim {visibility:hidden;}
   .slide {
@@ -209,20 +215,20 @@
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#services">SERVICES</a></li>
         <li><a href="#portfolio">PORTFOLIO</a></li>
-       <!-- <li><a href="#pricing">PRICING</a></li>-->
         <li><a href="#contact">CONTACT</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<div class="jumbotron text-center">
+<div class="jumbotron text-center" style="z-index:90" >
   <h1>Sivasakthi Groups/Builders & cements</h1> 
-  <p>We specialize in Quality</p> 
-  <form>
-    <div class="input-group">
-    </div>
-  </form>
+  <p>We specialize in Quality</p>  
+</div>
+<div style="background-color: gold;height: 60px;" >
+  <p style="color: black;font-size: 20px;text-align: center;">Sivasakthi Groups/Builders and cements</p>
+  <div style="background-color: gold;text-align: center;"><button style="width: 100px;background-color: black;color:white;"class="btn btn-default btn-lg" onclick=my()>call us.</button></div>
+  
 </div>
 
 <!-- Container (About Section) -->
@@ -231,7 +237,7 @@
     <div class="col-sm-8">
       <h2>Welcome to Sivasakthi Groups/Builders & cements</h2><br>
       <h4>We Are The Leading Construction Company in udumalpet,We Are The Best Contractors and Builders In Udumalpet.there are lot of builders evolving and they are coming out with good innovative project which is the best and lot of people are getting impressed by the impressive plans with them builders in Udumalpet are ready to provide service at any time, when comparing to other builder around Udumalpet.The builders in Udumalpet are considered to be the best.</h4><br>
-          <br><button class="btn btn-default btn-lg" onclick="my()"  >Get in Touch</button>
+
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-home logo"></span>
@@ -239,7 +245,7 @@
   </div>
 </div>
 
-<div class="container-fluid bg-grey">
+<div class="container-fluid bg-grey" >
   <div class="row">
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-user logo slideanim"></span>
@@ -303,7 +309,7 @@
 </div>
 
 <!-- Container (Portfolio Section) -->
-<div id="portfolio" class="container-fluid text-center bg-grey">
+<div id="portfolio" class="container-fluid text-center bg-grey" >
   <h2>Portfolio</h2><br>
   <h4>What we have created Using Precastwalls. </h4>
   <div class="row text-center slideanim">
@@ -330,7 +336,7 @@
     </div>
   </div><br>
   
-  <h2>What our customers say</h2>
+  <h2 >What our customers say</h2>
   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -340,7 +346,7 @@
     </ol>
 		
     <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
+    <div class="carousel-inner" role="listbox" >
       <div class="item active">
         <h4>"This company is the best. I am so happy with the result!"<br><span></span></h4>
       </div>
@@ -366,8 +372,8 @@
 
 	<img src="map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
 <!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center">CONTACT</h2>
+<div id="contact" class="container-fluid bg-grey"   style="background-color: black;color:white">
+  <h2 class="text-center" style="color: white;">CONTACT</h2>
   <div class="row">
     <div class="col-sm-5">
       <p>Contact us.</p>
@@ -375,6 +381,7 @@
       <p><span class="glyphicon glyphicon-phone"></span> +919629515191,+91 9894423334</p>
       <p><span class="glyphicon glyphicon-envelope"></span> sivasakthi123.co@gmail.com</p>
     </div>
+   
   </div>
 </div>
 <footer class="container-fluid text-center">
@@ -423,10 +430,8 @@ $(document).ready(function(){
 <script>
 function my()
 {
-onclick="window.open(tel:'+919629515191');"
-alert("call +919629515191")
+location.href="#contact";
 }
-
 </script>
 </body>
 </html>
